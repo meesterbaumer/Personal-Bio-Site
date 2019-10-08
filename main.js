@@ -43,7 +43,7 @@ const createProjectsCards = (projectsArr) => {
         if (projects.available) {
         domString += 
         `
-        <div class="card">
+        <div class="card-print">
             <h2>${projects.title}</h2>
             <h2>${projects.screenshot}</h2>
             
@@ -54,4 +54,8 @@ const createProjectsCards = (projectsArr) => {
 
 };
 
+const init = () => {
 createProjectsCards(Projects);
+};
+
+init();
