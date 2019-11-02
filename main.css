@@ -2,3 +2,15 @@ body {
     background-color: slategray;
 }
 
+.title {
+    text-align: center;
+    margin: 2em;
+}
+
+.bioCard {
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 20px;
+    background-color: rgba(4, 52, 184, 0.438);
+    font-size: 1.5em;
+}
